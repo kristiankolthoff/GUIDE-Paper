@@ -72,16 +72,16 @@
 
                   <div class="is-size-5 publication-authors">
                     <span class="author-block">Institute for Software and Systems Engineering, Clausthal University of Technology, Clausthal, Germany
-<br>Human-Centered Systems Lab, Karlsruhe Institute of Technology, Karlsruhe, Germany<br>3Data and Web Science Group, University of Mannheim, Mannheim, Germany
-<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+<br>Human-Centered Systems Lab, Karlsruhe Institute of Technology, Karlsruhe, Germany<br>Data and Web Science Group, University of Mannheim, Mannheim, Germany
+<br>47th IEEE/ACM International Conference on Software Engineering, 2025</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Authors contributed equally to the paper</small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/abs/2502.21068.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -90,20 +90,9 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/GUIDE-Prototyper/GUIDE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -114,7 +103,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2502.21068" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -131,23 +120,6 @@
 </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -156,7 +128,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Graphical user interface (GUI) prototyping serves as one of the most valuable techniques for enhancing the elicitation of requirements, facilitating the visualization and refinement of customer needs and closely integrating the customer into the development activities. While GUI prototyping has a positive impact on the software development process, it simultaneously demands significant effort and resources. The emergence of Large Language Models (LLMs) with their impressive code generation capabilities offers a promising approach for automating GUI prototyping. Despite their potential, there is a gap between current LLM-based prototyping solutions and traditional user-based GUI prototyping approaches which provide visual representations of the GUI prototypes and direct editing functionality. In contrast, LLMs and related generative approaches merely produce text sequences or non-editable image output, which lacks both mentioned aspects and therefore impede supporting GUI prototyping. Moreover, minor changes requested by the user typically lead to an inefficient regeneration of the entire GUI prototype when using LLMs directly. In this work, we propose GUIDE, a novel LLM-driven GUI generation decomposition approach seamlessly integrated into the popular prototyping framework Figma. Our approach initially decomposes high-level GUI descriptions into fine-granular GUI requirements, which are subsequently translated into Material Design GUI prototypes, enabling higher controllability and more efficient adaption of changes. To efficiently conduct prompting-based generation of Material Design GUI prototypes, we propose a retrieval-augmented generation (RAG) approach to integrate the component library. Our preliminary evaluation demonstrates the effectiveness of GUIDE in bridging the gap between LLM generation capabilities and traditional GUI prototyping workflows, offering a more effective and controlled user-based approach to LLM-driven GUI prototyping. Video presentation of GUIDE is available at: https://youtu.be/C9RbhMxqpTU
           </p>
         </div>
       </div>
@@ -263,7 +235,22 @@
 <!-- End video carousel -->
 
 
-
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
 
 
 
